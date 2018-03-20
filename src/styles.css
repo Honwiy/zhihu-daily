@@ -22,10 +22,10 @@ main {
 
 .fill-remaining-space{
     flex: 1 1 auto;   
-}  
+}
 
-footer {
+/* footer {
     position:fixed; 
     bottom:0;
     width: 100%;
-}
+} */

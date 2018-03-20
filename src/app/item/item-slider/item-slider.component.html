@@ -1,15 +1,16 @@
 <div class="swiper-container">
   <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="https://pic2.zhimg.com/v2-9cefe1e33b8f6f8b7f45a7abca70eb35.jpg"  alt=""><span>生活中看见「本店概不负责、概不退换」，你可别被吓住了</span></div>
-    <div class="swiper-slide"><img src="https://pic2.zhimg.com//v2-29a8fb8fba000c6fad4b7386c2c49c91.jpg"  alt=""><span>有些道理，我当了领导后才真正明白</span></div>
-    <div class="swiper-slide">Slide 3</div>
-    <div class="swiper-slide">Slide 4</div>
-    <div class="swiper-slide">Slide 5</div>
-    <div class="swiper-slide">Slide 6</div>
-    <div class="swiper-slide">Slide 7</div>
-    <div class="swiper-slide">Slide 8</div>
-    <div class="swiper-slide">Slide 9</div>
-    <div class="swiper-slide">Slide 10</div>
+    <!-- <div class="swiper-slide"><img src="https://pic2.zhimg.com/v2-0032b5d417e8e90dd63e8ca7a7e2b699.jpg"  alt=""><span>趁肯德基 0 元 bug 狂下单的人，别偷笑了，商家是可以不作数的</span></div>
+    <div class="swiper-slide"><img src="https://pic4.zhimg.com/v2-bee0b563b944814705c26b3da3a18ab7.jpg"  alt=""><span>周围人都在焦虑，我却一点感觉也没有，好焦虑啊</span></div>
+    <div class="swiper-slide"><img src="https://pic2.zhimg.com/v2-f5e949193b565a34ed1d035f5780ab9d.jpg"  alt=""><span>和女朋友逛街，碰见比我高大的店员，我就忍不住花钱......</span></div>
+    <div class="swiper-slide"><img src="https://pic3.zhimg.com/v2-f29bf7007a840aafa0cbe9f7ce426bc2.jpg"  alt=""><span>淘宝推出特价版，矛头直指拼多多，「打多办」终于还是出手了</span></div>
+    <div class="swiper-slide"><img src="https://pic3.zhimg.com/v2-a2f1a70855b4cec88f156671d31416aa.jpg"  alt=""><span>自动驾驶 Uber 撞死行人，为什么说这类事故发生是迟早的事？</span></div> -->
+    
+    <div class="swiper-slide" *ngFor="let top_story of top_stories">
+        <img src="{{top_story.image}}" alt="" (click)="showContent(top_story.id)">
+        <span>{{top_story.title}}</span>
+    </div>
+
   </div>
   <div class="swiper-pagination"></div>
 </div>
