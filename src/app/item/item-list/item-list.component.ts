@@ -22,4 +22,8 @@ export class ItemListComponent implements OnInit {
     .subscribe((data)=>this.stories=data['stories']);
   }
 
+  showContent(id) {
+    console.log(id)
+  }
+
 }

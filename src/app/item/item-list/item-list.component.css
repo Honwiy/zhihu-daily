@@ -1,0 +1,25 @@
+.item-list {
+    padding: 10px 10px 10px 10px;
+}
+
+.item-list img {
+    margin: 0 auto;
+    display:block;
+    width: 90px;
+    height: 80px;
+}
+
+.item-list span {
+    width: 60%;
+    float:left;
+    left: 2px;
+    font-size: 16px;
+    color: black;
+}
+
+.item-list hr {
+    opacity: 0.2;
+    height:1px;
+    border:none;
+    border-top:1px dashed gray;
+}
