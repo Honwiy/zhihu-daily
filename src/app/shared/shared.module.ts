@@ -18,7 +18,7 @@ import {
   MatRadioModule,
   MatSelectModule,
   MatDatepickerModule,
-  MatNativeDateModule
+  MatNativeDateModule,
  } from "@angular/material";
 
 @NgModule({
@@ -40,7 +40,9 @@ import {
     MatRadioModule,
     MatSelectModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatCardModule,
+    
   ],
   exports: [
     CommonModule,

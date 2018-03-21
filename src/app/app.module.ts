@@ -1,3 +1,4 @@
+import { ContentModule } from './content/content.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -20,7 +21,8 @@ import { AppRoutingModule } from "./app-routing.module";
     ItemModule,
     MatSidenavModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ContentModule
   ],
   providers: [],
   bootstrap: [AppComponent]

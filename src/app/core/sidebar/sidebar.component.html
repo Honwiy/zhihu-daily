@@ -1,14 +1,24 @@
-<mat-nav-list dense>
+<mat-nav-list role="list">
+  <mat-list-item role="listitem">
 
-  <!-- <mat-icon mat-list-icon>home</mat-icon> -->
-  <i class="material-icons">home</i>
-  <span mat-line>首页</span>
+  </mat-list-item>
+
+  <mat-divider></mat-divider>
   
-  <!-- <mat-list-item>
-    <mat-icon mat-list-icon svgIcon="projects"></mat-icon>
-    <span mat-line>项目首页</span>
-    <span mat-line mat-subheader>查看所有项目</span>
-  </mat-list-item> -->
+  <mat-list-item class="side-item" role="listitem">
+    <div style="flex:1">
+      <i class="fa fa-home"></i>
+      <span>首页</span>
+    </div>
+    <i class="fa fa-angle-right"></i>
+  </mat-list-item>
 
+  <mat-list-item class="side-item" role="listitem" *ngFor="let itemTitle of itemTitles" >
+    <div style="flex:1">
+      <span>{{itemTitle}}</span>
+    </div>
+    <i class="fa fa-angle-right"></i>
+  </mat-list-item>
   
 </mat-nav-list>
+
