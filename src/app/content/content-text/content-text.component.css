@@ -12,6 +12,7 @@
     bottom: 15%;
     display: block;
     left: 0;
+    padding: 10px;
     font-size: 22px;
     color: white;
     text-shadow: black 2px 2px 3px;
@@ -24,4 +25,12 @@
     right: 10px;
     font-size: 12px;
     color: rgba(255, 255, 255, 0.9);
+}
+
+app-content-footer {
+    height: 30px;
+    position:fixed; 
+    bottom:0;
+    width: 100%;
+
 }
