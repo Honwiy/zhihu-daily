@@ -29,3 +29,58 @@ main {
     bottom:0;
     width: 100%;
 } */
+
+
+/** 正文样式 */
+
+/* 外框边距 */
+#article-text{
+    padding: 0;
+}
+
+/* 文章标题 */
+.question-title {
+    margin: 0px 0 10px 0;
+    font-size: 20px;
+}
+
+/* 作者信息 */
+.meta {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 作者头像 */
+.avatar {
+    width: 26px;
+}
+
+/* 作者名称 */
+.author {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* 个性签名 */
+.bio {
+    color: gray;
+    font-weight: 500;
+}
+
+/* 正文文字 */
+.content>p {
+    font-size: 18px;
+    /* font-family: 'Source Han Sans CN'; */
+}
+
+
+.question {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#article-text .content-image {
+    max-width: 100%;
+}
+

@@ -1,5 +1,14 @@
-<div class="title-img">
-    <img src="{{content.image}}" alt="">
-    <span>{{content.title}}</span>
-</div>
-<div class="content-body"><html>{{content.body}}</html></div>
+<mat-grid-list cols="1">
+    <mat-grid-tile class="title">
+            <img class="title-image" src="{{content.image}}" alt="">
+            <span class="title-text">{{content.title}}</span>
+            <span class="title-image-source">图片：{{content.image_source}}</span>
+    </mat-grid-tile>
+    <!-- <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile> -->
+</mat-grid-list>
+
+<mat-card id="article-text" [innerHtml]="content.body"></mat-card>
+<app-content-footer></app-content-footer>
+
+

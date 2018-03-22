@@ -19,7 +19,7 @@ export class ItemSliderComponent implements OnInit {
   ngOnInit() {
 
     this.http
-    .get("http://localhost:5000/latest")
+    .get("http://58.87.97.151:5000/latest")
     .subscribe((data)=>this.top_stories=data['top_stories']);
 
     setTimeout(()=>{var mySwiper = new Swiper('.swiper-container',{

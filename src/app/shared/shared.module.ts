@@ -41,8 +41,7 @@ import {
     MatSelectModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatCardModule,
-    
+    MatCardModule
   ],
   exports: [
     CommonModule,

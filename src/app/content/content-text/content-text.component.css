@@ -1,7 +1,27 @@
-.title-img {
-    height: 300px;
+/* mat-grid-list {
+    height: 230px;
+}   */
+
+.title-image {
+    width: 100%;
+    margin-top:-50px;
 }
 
-.title-img img {
-    width: 100%;
+.title-text {
+    position: absolute;
+    bottom: 15%;
+    display: block;
+    left: 0;
+    font-size: 22px;
+    color: white;
+    text-shadow: black 2px 2px 3px;
+}
+
+.title-image-source {
+    position: absolute;
+    bottom: 10%;
+    display: block;
+    right: 10px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
 }

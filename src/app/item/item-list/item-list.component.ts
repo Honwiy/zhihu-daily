@@ -18,7 +18,7 @@ export class ItemListComponent implements OnInit {
 
   ngOnInit() {
     this.http
-    .get("http://localhost:5000/latest")
+    .get("http://58.87.97.151:5000/latest")
     .subscribe((data)=>this.stories=data['stories']);
   }
 

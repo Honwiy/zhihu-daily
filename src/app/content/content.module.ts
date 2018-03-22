@@ -4,6 +4,8 @@ import { ContentTextComponent } from './content-text/content-text.component';
 import { ContentRoutingModule } from './content-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from '../shared/shared.module';
+import { ContentFooterComponent } from './content-footer/content-footer.component';
+
 
 @NgModule({
   imports: [
@@ -12,6 +14,6 @@ import { SharedModule } from '../shared/shared.module';
     HttpClientModule,
     SharedModule
   ],
-  declarations: [ContentTextComponent]
+  declarations: [ContentTextComponent, ContentFooterComponent]
 })
 export class ContentModule { }
