@@ -1,5 +1,19 @@
-<mat-toolbar color="primary">
-    
-    <span>footer icon</span>
-    
-  </mat-toolbar>
+<mat-toolbar>
+  <button mat-icon-button class="footer-button">
+      <i class="material-icons" routerLink="">keyboard_arrow_left</i>
+  </button>
+  <button mat-icon-button class="footer-button">
+      <i class="material-icons">keyboard_arrow_down</i>
+  </button>
+  <button mat-icon-button class="footer-button">
+    <i class="material-icons" >thumb_up</i>
+    <span>{{story_extra.popularity}}</span>
+  </button>
+  <button mat-icon-button class="footer-button">
+    <i class="material-icons">open_in_new</i>
+  </button>
+  <button mat-icon-button class="footer-button">
+    <i class="material-icons">message</i>
+    <span>{{story_extra.comments}}</span>
+  </button>
+</mat-toolbar>

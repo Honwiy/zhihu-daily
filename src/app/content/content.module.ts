@@ -1,3 +1,4 @@
+import { ContentService } from './content.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ContentTextComponent } from './content-text/content-text.component';
@@ -7,6 +8,7 @@ import { SharedModule } from '../shared/shared.module';
 import { ContentFooterComponent } from './content-footer/content-footer.component';
 
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -14,6 +16,9 @@ import { ContentFooterComponent } from './content-footer/content-footer.componen
     HttpClientModule,
     SharedModule
   ],
-  declarations: [ContentTextComponent, ContentFooterComponent]
+  declarations: [ContentTextComponent, ContentFooterComponent],
+  providers: [
+    ContentService
+  ]
 })
 export class ContentModule { }

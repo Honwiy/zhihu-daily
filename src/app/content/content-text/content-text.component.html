@@ -1,5 +1,6 @@
 <mat-grid-list cols="1">
     <mat-grid-tile class="title">
+            <div class="shade"></div>
             <img class="title-image" src="{{content.image}}" alt="">
             <span class="title-text">{{content.title}}</span>
             <span class="title-image-source">图片：{{content.image_source}}</span>
@@ -9,6 +10,8 @@
 </mat-grid-list>
 
 <mat-card id="article-text" [innerHtml]="content.body"></mat-card>
+<footer>
 <app-content-footer></app-content-footer>
+</footer>
 
 

@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-
 html, body, app-content-root, md-sidenav-container, .site{
     width: 100%;
     height:100%;
@@ -34,7 +33,7 @@ main {
 /* 外框边距 */
 #article-text{
     padding: 0;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 /* 文章标题 */
@@ -69,13 +68,13 @@ main {
 
 /* 正文文字 */
 .content>p {
-    font-size: 18px;
+    font-size: 16px;
     color: #9e9e9e;
 }
 
 /* 正文粗体字 */
 .content>p>strong {
-    font-size: 18px;
+    font-size: 16px;
     color: #616161; ;
 }
 
@@ -88,3 +87,25 @@ main {
     max-width: 100%;
 }
 
+figcaption {
+    padding-top: 15px;
+    margin: 0 auto;
+    
+}
+
+.view-more {
+    display:block;
+    width:100%;
+    height:25px;
+    background:#e0e0e0;
+}
+
+.view-more>a {
+    color: #9e9e9e;; 
+    text-decoration:none;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 auto;
+    display:block;
+    font-size: 10px !important;
+}
