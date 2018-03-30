@@ -109,3 +109,10 @@ figcaption {
     display:block;
     font-size: 10px !important;
 }
+
+
+/* 评论样式 */
+.comment {
+    margin-top: 50px;
+}
+
