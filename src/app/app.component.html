@@ -2,9 +2,9 @@
   <mat-sidenav #sidenav mode="push" style="background-color:#bdbdbd;">
     <app-sidebar></app-sidebar>
   </mat-sidenav>
-  <div class="site"> 
+  <div class="site">
     <header>
-      <app-header (toggle)="sidenav.toggle()" (toggleDarkTheme)="switchTheme($event)"></app-header>
+      <app-header></app-header>
     </header>
     <main>
       <router-outlet></router-outlet>

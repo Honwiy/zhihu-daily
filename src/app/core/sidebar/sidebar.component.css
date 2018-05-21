@@ -9,3 +9,8 @@ mat-list-item {
 .right-button {
     right:0;
 }
+
+.sidebar-href{
+    flex:1;
+    text-decoration:none;
+}
